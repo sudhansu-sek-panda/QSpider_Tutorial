@@ -1,0 +1,138 @@
+                            ||=====================================||
+                            ||  Date = 3rd Jan, 2025, Friday       ||
+                            ||  Course - Java                      ||
+                            ||  Trainner - Zeeshan Qamar           ||
+                            ||  Place - QSpider Bhubaneswar        ||
+                            ||=====================================||
+
+
+                       
+
+
+Terciary Operator
+========================================
+Condition ? Statement-1 : Statement-2
+
+int x = 10 < 20 ? 30 : 40;
+System.out.println(x); // 30 
+
+int x = 10 > 20 ? 30 : 40;
+System.out.println(x); // 40
+
+int x = (10<20): ((30 > 40) ? 50 : 60) : ((70<80) ? 90 : 10 ); 
+System.out.println(x) //60
+
+
+Flow Control 
+===================================
+-> The order in which all the statement will be executed at runtime is known as flow control.
+
+if-else
+=====================================
+
+Syntax:
+if(condition){
+    Statement 1;
+}
+else{
+    Statement 2;
+}
+
+if(boolean){
+    Statement 1;
+}
+else{
+    Statement 2;
+}
+
+() -> The argument
+-> Anything written inside paranthesis is known as arguments.
+-> The argument to the if else should be of boolean type, if we try to pass any other we'll get 
+    CE saying incompartible type.
+
+->  int x = 10;
+    if(x){
+        System.out.println("Hyy");
+    }
+    else{
+        System.out.println("Byy");
+    }
+
+    Output: CE returns integer, needed boolean (incompartable type can't convert int to boolean)
+
+
+
+->  int x = 10;
+    if(x=20){           // Assignment operator
+        System.out.println("Hyy");
+    }
+    else{
+        System.out.println("Byy");
+    }
+
+    Output: CE returns integer, needed boolean (incompartable type can't convert int to boolean)
+
+
+->  int a = 10;
+    if(x==20){           // Equality operator, Compare two operands
+        System.out.println("Hyy");
+    }
+    else{
+        System.out.println("Byy");
+    }
+
+    Output: Byy
+
+->  
+    if(true){
+        System.out.println("Hyy");
+    }
+    System.out.println("Oyye");
+    else{
+        System.out.println("Bye");
+    }
+
+    Output: CE else without if
+    
+Note: We can't write any statement between if and else;
+-> else part is optional
+-> without if else can't be executed.
+
+
+    if(false){
+        System.out.println("Hyy");
+    }
+    System.out.println("Oyee");
+
+    Output: Oyee
+
+-> If there is only one statement inside if and else then curly braces are optional.
+    if(false)
+    System.out.println("Hyy");
+
+    else
+    System.out.println("Byy");
+-> If we're not providing any curly braces then only one statement is allowed and that statement 
+    shouldn't be a declarative type.
+
+    int(true)
+    int x=10; // Declaring x as int with value 10
+
+    Output: CE
+    
+    int x;
+    if(true)
+    x=10; // Initialization or Initializing x as 10
+
+    Output: No error
+
+    Nested if else
+    ================================================================
+
+
+Summery:
+==============================================================================================
+Terciary Operator - Programms
+Flow Control - Selection - if else
+
+

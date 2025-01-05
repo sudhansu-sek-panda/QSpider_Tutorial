@@ -1,0 +1,44 @@
+Q1. What is Java?
+Ans: - it is a general purpose programming language. The java is based on Object Oriented concept.
+Q2. What is Operator?
+Ans: - Operators are used to perform actions.
+Q3. How many operators are there in Java?
+Ans: There are three kinds/ types of operators in Java.
+1 - Unary Operator
+2 - Binary Operator
+3 - Terciary Operator
+
+Unary Operator
+``````````````````````
+-> It has single operator.
+
+Q4. What are the types of unary operator?
+Ans: Ther are two types of unary operator.
+Increment and Decrement
+Increment - It increases the value by one.
+It is of two types.
+1 - Pre Increment - ++x;
+2 - Post Increment - X++;
+
+Decrement - It decreses the value by one.
+It is of two types.
+1 - Pre decrement - --x;
+2 - Post decrement - x--;
+
+Q. How many softwares needed to execute Java Programme?
+Ans: 2.
+1 - Compiler
+2 - Interpreter
+
+Compiler
+````````````````
+-> It scans the entire code and checks the syntax only.
+-> It doesn't check the logic.
+-> It generates byte code.
+-> Byte codes are machine independent.
+
+
+Interpreter
+-> It translates the byte code.
+-> It translates the byte code into machine code and execute the java programme.
+

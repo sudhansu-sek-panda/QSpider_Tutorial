@@ -1,0 +1,25 @@
+===================================
+Date = 3rd Jan, 2025, Friday 
+Course - Java 
+Trainner - Zeeshan Qamar
+Place - QSpider Bhubaneswar
+========================================
+
+
+Terciary Operator
+========================================
+Condition ? Statement-1 : Statement-2
+
+int x = 10 < 20 ? 30 : 40;
+System.out.println(x); // 30 
+
+int x = 10 > 20 ? 30 : 40;
+System.out.println(x); // 40
+
+int x = (10<20): ((30 > 40) ? 50 : 60) : ((70<80) ? 90 : 10 ); 
+System.out.println(x) //60
+
+Flow Control 
+===================================
+-> The order in which all the statement will be executed at runtime is known as flow control.
+
