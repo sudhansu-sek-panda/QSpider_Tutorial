@@ -1,0 +1,53 @@
+ * -> 
+Astrict is used to select all the column in a table.
+
+Expression 
+It is a combination of operators and operands.
+Expression is a statement which gives a result.
+
+Distnict Clause
+=========================
+Distnict Clause is used to remove the duplicate records from the resultant table.
+We can use multiple column names as an argument to a distnict clause, it will remove the combination of columns which records are duplicated.
+- > Distnict clause has to be used as the first argument of the select clause.
+
+
+       Alias
+============================================================================
+-> It is an alternative name given to a column as in resultant table.
+-> It is not modifying the original  table but in the resultant table.
+-> 
+
+
+SELECT EMP.*, SAL*12 AS "ANNUAL SALARY" 
+FROM EMP;
+
+Selection 
+It is a phenonmenon of retriving the data by selecting both rows and columns.
+
+The syntax used for selection is 
+SELECT * 
+FROM EMP
+WHERE DEPTNO = 20;
+
+SELECT ENAME, SAL FROM EMP WHERE DEPTNO = 20;
+
+WHERE Clause: It is used to filter the records. 
+Note: Where clause executes after the from clause on the table which is under execution.
+
+Where clause executes row by row. 
+We can filter the records with the help of filter condition. 
+we can write multiple conditions or filter conditions in where clause with the help of logical operators.
+
+Example Query: 
+
+Write a query to display employee name, department number and salary given to each employee if they are working in department 20.
+SELECT ename, deptno, sal, from emp where deptno = 20;
+
+
+
+
+
+
+
+

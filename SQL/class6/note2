@@ -1,0 +1,14 @@
+SubQueries 
+
+Write a query to display name and salary of all the employees where working in department no =10 with salary more than 2000.
+display
+select ename and sal from emp where deptno = 10 and sal>2000;
+SELECT FIRST_NAME, SALARY
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID = 110 AND SALARY>8300
+/
+
+
+
+
+

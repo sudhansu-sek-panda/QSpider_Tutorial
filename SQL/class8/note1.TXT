@@ -1,0 +1,101 @@
+                                            ====================================
+                                            ||  Date: 04-01-2025, Saturday    ||
+                                            ||  Course:  SQL                  ||
+                                            ||  Name:  Likhit Sir             ||
+                                            ||  Place: QSpider Bhubaneswar    ||
+                                            ||                                ||
+                                            ====================================
+
+
+Function which is used to store a set of instruction into it.
+With the help of function we can increase the efficiency of a programme by reducing the number of instructions.
+-> In SQL there are two types of functions are there. THey are: -
+1 - Single Rows Functions
+2 - Multi Row Functions
+
+Multi Row Functions
+================================
+-> It is a function which accepts n number of records as an input and returns a single record as an resultant.
+-> It takes all the inputs at one short and then executes and provides a single output.
+
+List of multi row functions
+==================================
+MAX() - It is used to obtain the maximum value present in the column.
+MIN() - It is used to obtain the minimum value present in the column.
+AVG() - It is used to obtain the average of values present in the column.
+COUNT() - It is used to obtain the number of values present in the column.
+SUM() - It is used to obtain the sumation of the values present in the column.
+
+Notes:
+-> Multi Row functions are the functions which accepts only one argument i.e column name or expression.
+-> In select clause we are not supposed to use any another column name along with multi row function.
+-> Multi row functions will ignore the null values.
+-> Count is the only function which accepts * as an argument.
+-> We can't use multi row functions in where clause.
+
+WAQTD THE MAXIMUM SALARY GIVEN IN EACH DEPARTMENT
+
+SELECT MAX(SAL) 
+FROM EMP 
+WHERE DEPTNO IN (10,20,30,40);
+
+
+GROUP BY - Clause
+``````````````````````````````````````````````````````````````````````````````````
+-> Group By clause is used to group the records. 
+Syntax:
+SELECT group function/ group by expression
+FROM table name
+[WHERE] <filter row>
+GROUP column name/ expression;
+
+Order of execution
+`````````````````````````````
+1 - FROM
+2 - WHERE
+3 - GROUP BY
+4 - SELECT
+
+WHERE - ROW BY ROW
+GROUP - ROW BY ROW
+SELECT - GROUP BY GROUP
+
+NOTE:
+
+-> Group by clause is used to group the records.
+-> Group By clause will execute row by row.
+-> After the execution of group by clause we get the groups.
+-> Before any clause that executes after group by must execute group by group.
+-> The column name or the expressison used for grouping can be used in select clause.
+-> Group By clause can be used without a where clause. 
+
+
+Example: 
+
+
+
+
+HAVING CLAUSE: It is used to filter the groups.
+Syntax:
+-> SELECT
+-> FROM
+-> WHERE
+-> GROUP BY
+-> HAVING <GROUP filter condition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Single Row Functions: 
+============================================================================
+
+ 

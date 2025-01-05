@@ -1,0 +1,17 @@
+Primary Key
+`````````````````
+It is a constraint which is  used to identify a record uniquely from the table.
+
+Characteristics of Primary Key
+```````````````````````````````````
+-> We can use only one primary key ina table. Primary key will not accept a null value too.
+-> Primary key will never accept a duplicate or repeted value into it.
+-> Primary key is always a combination of unique and not null.
+-> It is not mandatory but highly recomended to have one in a table.
+
+Forign Key
+``````````````
+It is a constraint which is use to represent or establish a connection between two tables.
+
+Characteristics  of Foreign Key
+``````````````````````````````````````

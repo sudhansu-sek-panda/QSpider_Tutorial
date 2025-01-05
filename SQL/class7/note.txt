@@ -1,0 +1,144 @@
+Logical Operator
+Multiple Conditions
+
+
+Operators
+````````````````````````
+Operators are the special symbols which is used to perform the specific operation.
+In SQL operators got classified into 7 types
+1 - Arithmetic Operator
+2 - Relational Operator
+3 - Concatenation Operator
+4 - Logical Operators < ,= > >=
+5 - Comparision Operators
+6 - Special Operators
+7 - Sub Query Operators
+
+Arithmetic Operators
+==========================
+Addition operator + : It is an operator which is used to find the sum of two or more operands.
+Substraction Operator: It is an operator to find the difference between two or more operands.
+Multiplication Operators: It is an operator which is used to find the product of two or more operands.
+Division Operator: It is an operator which is used to get the exact division output of the given operands.
+
+CAoncatenation Operator - ||
+============================
+It is an operator which is used to find or merge two or more collections.
+
+
+Relational Operator
+=====================
+
+Relational Greater than operator 
+`````````````````````````````````````````
+It  is an operator which is used to check whether the operand one is greater than operand two or not.
+It will return the result as a true if operand one is greater than operand two, else it returns the result as false.
+
+
+Relational Less Than operator
+`````````````````````````````````````
+It is an operator which is used to check whether the operand one is less than operand two or not.
+It will return the result as true if the operand one is less than operand two, else it returns the result as false.
+
+Relational Greater Than - Equal
+``````````````````````````````````````````````````````````````````````````````````````
+It is an operator which is used to check the operand one is greater than operand two or operand one is exactly same as operand two or not.
+It will return the result as true if operand one is greater than operand two or operand one is same as operand true.
+
+
+Relational Less Than - Equal 
+`````````````````````````````````````````````````````````````````````````````````````````````
+It is an operator which is used to check whether the operand one is less than operand two or operand one is exactly same as operand two or not.
+It will return the result as true if operand one is less than operand two or operand one is same as operand two else it will return result as false.
+
+
+
+Logical Operators
+``````````````````````````````````````
+Logical Operators are used whenever we have to deal with multiple conditions.
+
+Logical and Operator 'and'
+````````````````````````````````````
+It is an operator which will return the result as true if all the given conditions return the result as true, else it will return the result as false.
+
+Logical OR operator
+```````````````````````````````````````````````````````````````````````````````````````````````
+It is an operator which will return the result the result as true if any one of the given condition returns the result as true, else it returns the result as false.
+
+Logical NOT operator
+``````````````````````````````````````````````````````````````````````````````````````````
+It is an unary operator(which accepts only one operand) which is used to negate or inverse the result of a given expression.
+It will return the result as true if the given expression returns the result as false, else it returns the result as false.
+
+
+Special Operators
+```````````````````````````
+IN 
+NOT IN 
+BETWEEN 
+NOT BETWEEN
+IS 
+IS NOT
+LIKE 
+NOT LIKE
+Note: Code Redundancy - Writing the code again and again
+
+SELECT FIRST_NAME FROM EMPLOYEES WHERE DEPT_ID IN (20,30,40,50);
+SELECT FIRST_NAME FROM EMPLOYEES WHERE HIRE_DATE >='01-JAN-81' AND HIRE_DATE <= '31-DEC-81'; 
+SELECT FIRST_NAME FROM EMPLOYEES WHERE HIRE_DATE BETWEEN '01-JAN-81' AND '31-DEC-81';
+SLECT FIRST_NAME FROM EMPLOYEES WHERE 
+SELECT FIRAT_NAME FROM EMPLOYEES WHERE SALARY BETWEEN 1000 AND 2000;
+SELECT FIRST_NAME FROM EMPLOYEES WHERE JOB IN 'MANAGER';
+SELECT * FROM EMPLOYEES WHERE COMM=NULL;
+SELECT * FROM EMPLOYEES WHERE COMM IS NOT NULL;
+
+
+SPECIAL Operators
+It is an operator which will return the result as true is the operand one is present in operand two, it return the result as false.
+NOT IN Operator
+It is an operator which will return the result as true if
+Operand one is not present in operand two, else it will return the result as false.
+
+BETWEEN OPERATOR
+`````````````````````````````
+It is used whenever we have a range of values.
+It will result as true if the operand one is present in ranges of operand two.
+
+Syntax: 
+Operand one BETWEEN lowerrange AND upperrange.
+
+NOT BETWEEN
+```````````````````````````````````````````````````````````````````````````````````````
+It will return the result as true if the operand one is not between the given ranges.
+
+IS Operator
+````````````````````````````````````````````````````````````````````````````````````
+It is used to compared with the null values. 
+
+IS NULL
+```````````````````````````````````````````````````````````````````````````
+It is used to compare with NOT NULL.
+
+LIKE 
+
+_ %
+
+LIKE
+It is used for pattern matching.
+To achieve pattern matching we can make use of special charactes like % and _.
+_ -> one
+% -> for many
+'%81%'
+'_i%'
+
+
+
+NOT LIKE
+=====================================================
+It is similar to like operator instead of selecting the data, it rejects the data.
+
+
+
+
+
+
