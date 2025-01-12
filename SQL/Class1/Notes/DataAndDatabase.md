@@ -37,6 +37,6 @@ Read/ Retrive
  Update/ Modify  
  Delete/ Drop**
 
-Universally we called this operations as 'CRUD' operations.
+Universally we called this operations as **'CRUD'** operations.
 
 
