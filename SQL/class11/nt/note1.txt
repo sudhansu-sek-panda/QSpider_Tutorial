@@ -1,0 +1,91 @@
+OUTER JOIN
+================================================================================
+It is used to obtain the unmatched records. 
+
+LEFT OUTER JOIN
+```````````````````````
+It is used to obtain the unmatched records from the left table along with matched records.
+
+ANSI SYNTAX
+``````````````````
+SELECT column/exp
+FROM table1 LEFT OUTER JOIN table2 ON <join condition>
+
+ORACLE SYNTAX
+```````````````````````````````````````
+SELECT column/ exp
+FROM table1, table2
+WHERE table1.column = table2.column(+);
+
+
+
+RIGHT OUTER JOIN
+````````````````````````````````````````````
+It is used to obtain the unmatched records from the right table along with matched records.
+
+
+ANSI SYNTAX
+``````````````````
+SELECT column/exp
+FROM table1 RIGHT OUTER JOIN table2 ON <join condition>
+
+ORACLE SYNTAX
+```````````````````````````````````````
+SELECT column/ exp
+FROM table1, table2
+WHERE table1.column(+) = table2.column;
+
+
+Examples: SELECT ENAME, DEPTNO 
+FROM EMP, DEPT
+WHERE EMP.DEPTNO = DEPT.DEPTNO(+)
+
+FULL OUTER JOIN
+``````````````````````````````````````````````
+It is used to obtain the unmatched records of both left and right table along with matched records.
+
+
+ANSI SYNTAX -> 
+SELECT 
+
+ORACLE SYNTAX -> NO oracle syntax
+
+WAQTD the name of the employess who are reporting to king
+SELECT ENAME 
+FROM EMP 
+WHERE MRGID IN (SELECT EMPNO 
+                FROM EMP 
+                WHERE ENAME='KING')
+
+
+SELF JOINS
+``````````````````````````````````````
+-> It is a phenomenon of joining a table by itself. 
+-> Whenever the data to select is in the same table but in different record then we'll make use of SELF JOINS.
+
+-> ANSI SYNTAX
+SELECT column_name/ exp 
+FROM table1 JOIN table2 
+ON <join condition>
+
+-> ORACLE SYNTAX
+SELECT column_name/ exp
+FROM tbale t1, table t2, ...
+WHERE <join condition>;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMING - CORELATED, EXIT AND NON EXIST

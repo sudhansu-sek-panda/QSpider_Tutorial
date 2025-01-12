@@ -1,0 +1,154 @@
+//
+Single Row Function 17 TO 18.
+`````````````````````````````
+SELECT  * FROM EMP WHERE SALARY LIKE "___";
+
+SELECT * FROM EMP WHERE LENGTH(SALARY) = 3;
+
+SELECT UPPER(FIRST_NAME) || UPPER(LAST_NAME) AS "eNAME " FROM EMP WHERE 
+
+SINGLE ROW Function
+It is a function which accepts multiple number of records as a input and returns multiple numer of records as output/result.
+List of Single Row Functions
+
+String Functions
+`````````````````````
+1-> LENGTH()
+2-> UPPER()
+3-> LOWER()
+4-> CONCAT()
+5-> INITCAP()
+6-> REVERSE()
+7-> SUBSTR()
+8-> INSTR()
+9-> REPLACE()
+
+Number Functions
+``````````````````
+10->MOD()
+11->TRUNK()
+12->round()
+
+DATE Functions
+```````````````````
+13-> MONTHS_BETWEEN()
+14-> LAST_DAY()
+15-> TO_CHAR()
+16-> NVL()
+
+
+LENGTH()
+`````````````````````````
+-> It is a single row function which is used to count the number of characters present in the given string.
+
+UPPER()
+```````````````````````````````
+->It is used to convert the given string in the form of upper case.
+
+LOWER()
+```````````````````````````````````````
+
+-> It is used to convert all the uppercase alphabates of a given string to the form of lower case.
+
+CONCAT()
+```````````````````````````````````````````
+
+-> It is used to join the given two strings.
+
+INITCAP()
+`````````````````````````````
+-> It is used to convert all the characters of the string in the lower case except the first character.
+
+REVERSE()
+``````````````````````````````````
+-> It is used to reverse the given string. 
+
+SUBSTRING()
+`````````````````````````````````````````
+
+-> It is used to extract the part of a string from the given original string.
+
+SUBSTRING('String , start SUB STRING,LENGTH [Optional])
+SUBSTRING('QSPIDER' ,2 - STRAT SUB STRING,3- LENGTH [Optional])
+Indexing 
+
+ABINASH
+HSANIBA
+SUDHANSU USNAHDUS
+
+INSTR()
+````````````````````
+4 ARGUMENTS
+-> SELECT INSTR('QSPIDERS', 'I')
+FROM DUAL;
+
+SELECT INSTR('BANANA','A', 1, 3)
+FROM DUAL;
+
+-> It is used to obtain the index position of a given substring in the original string.
+INSTR('string', 'sub-string', index/position, ocurance);
+
+
+REPLACE()
+```````````````````````````
+SYNTAX: REPLACE('ORIGINAL STRING','SUBSTRING','nEW STRING/ NULL ')
+-> It is used to replace the string with the another string in the original string.
+-> 
+
+SELECT ENAME, LENGTH(ENAME) - LENGTH(REPLACE(ENAME, 'L', NULL));
+
+MOD()
+``````````````````````
+It is used to get the reminder of a division operation.
+
+ROUND()
+``````````````````````````
+ROUND(2376.232, -1)
+AFTER DECIMAL - 0, NEGETIVE VALUE - BEFORE IT.
+
+It is used to round up the given number based on the given scale.
+ROUND(number, [scale]);
+
+TRUNK()
+``````````````````````````````
+It is used to round up the value based on the given scale but it will always round up to the lowest value.
+
+MONTHS_BETWEEN();
+
+SYSDATE - CURRENT DATE
+SELECT ENAME, TRUNK(MONTHS_BETWEEN(SYSDATE, HIREDATE));
+
+MONTHS_BETWEEN()
+````````````````````````````
+-> It is used to count the number of months are there in between the given two days.
+
+LAST_DAY()
+``````````````````````````````
+It is used to get the last date of a given date.
+
+NVL()
+```````````````````
+Null Value Logic
+`````````````````````````````````
+
+It is used to elemenate the side effect of a null value in the operations.
+
+TO_CHAR()
+``````````````````
+It is used to convert the given date into string format based on the given format module.
+
+Syntax: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

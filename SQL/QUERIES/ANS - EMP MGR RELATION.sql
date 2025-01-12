@@ -1,0 +1,139 @@
+-- 								===================================================
+-- 								|| Database used : -  EMPLPOYEES & DEPARTMENTS  ||
+-- 								|| Author: Sudhansu								||
+-- 								|| Tasks Given by - Likhit Sir 					||
+-- 								===================================================
+
+-- 1.WAQTD SMITHS REPORTING MANAGER'S NAME
+
+							SELECT FIRST_NAME ||' '|| LAST_NAME AS "Employee Name"
+							FROM EMPLOYEES
+							WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+							                FROM EMPLOYEES
+							                WHERE LAST_NAME = 'Smith');
+
+
+-- 			Employee Name
+-- 			----------------------------------------------
+-- 			Karen Partners
+-- 			Gerald Cambrault
+
+
+
+-- 			2.WAQTD ADAMS MANAGER'S MANAGER NAME
+
+SELECT FIRST_NAME || ' ' || LAST_NAME AS "Employee Name"
+FROM EMPLOYEES
+WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+		FROM EMPLOYEES
+		WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+                		FROM EMPLOYEES
+				WHERE LAST_NAME IN 'Williams'));
+
+
+-- 			Employee Name
+-- 			----------------------------------------------
+-- 			Lex Garcia
+
+
+
+
+-- 3.WAQTD DEPARTMENT_NAME OF JONES MANAGER
+SELECT DEPARTMENT_NAME
+FROM DEPARTMENTS
+WHERE DEPARTMENT_ID IN (SELECT DEPARTMENT_ID
+                 FROM EMPLOYEES
+                 WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+				 FROM EMPLOYEES
+				 WHERE LAST_NAME IN 'Jones'));
+
+
+-- 			DEPARTMENT_NAME
+-- 			------------------------------
+-- 			Shipping
+
+
+SELECT * FROM DEPARTMENTS;
+DESC DEPARTMENTS;
+
+SELECT * FROM EMPLOYEES;
+DESC EMPLOYEES;
+
+
+-- 4.WAQTD MILLER'S MANAGER'S SALARY
+SELECT SALARY
+FROM EMPLOYEES
+WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+                FROM EMPLOYEES
+                WHERE LAST_NAME = 'Miller');
+
+
+--		  SALARY
+--		 ----------
+--		       9000
+
+
+
+-- 5.WAQTD LOCATION_ID OF SMITH'S MANAGER'S MANAGER.
+SELECT LOCATION_ID
+FROM DEPARTMENTS                                                                                                                      
+WHERE DEPARTMENT_ID IN (SELECT DEPARTMENT_ID
+		FROM EMPLOYEES
+		WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+                		FROM EMPLOYEES
+				WHERE LAST_NAME IN 'Smith'));
+
+-- 		LOCATION_ID
+--		------
+--   		     2500
+
+
+
+-- 6.WAQTD NAME OF THE EMPLOYEES REPORTING TO BLAKE
+SELECT LAST_NAME
+FROM EMPLOYEES
+WHERE MANAGER_ID IN (SELECT EMPLOYEE_ID
+	      FROM EMPLOYEES
+	      WHERE LAST_NAME IN 'Smith'); 
+
+
+
+-- 7.WAQTD NUMBER OF EMPLPOYEES REPORTING TO KING
+SELECT COUNT(*)
+FROM EMPLOYEES
+WHERE MANAGER_ID IN (SELECT EMPLOYEE_ID
+	      FROM EMPLOYEES
+	      WHERE LAST_NAME IN 'KING');
+
+
+
+-- 8.WAQTD DETAILS OF THE EMPLOYEES REPORTING TO JONES
+SELECT *
+FROM EMPLOYEES
+WHERE MANAGER_ID IN (SELECT EMPLOYEE_ID
+	      FROM EMPLOYEES
+	      WHERE LAST_NAME IN 'JONES');
+
+
+
+
+-- 9.WAQTD ENAMES OF THE EMPLOYEES REPORTING TO BLAKE'S MANAGER
+SELECT LAST_NAME
+FROM EMPLOYEES
+WHERE MANAGER_ID IN (SELECT EMPLOYEE_ID
+		FROM EMPLOYEES
+		WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+                		FROM EMPLOYEES
+				WHERE LAST_NAME IN 'BLAKE'));
+
+
+
+
+-- 10.WAQTD NUMBER OF EMPLOYEES REPORTING TO FORD'S MANAGER
+SELECT COUNT(*)
+FROM EMPLOYEES
+WHERE MANAGER_ID IN (SELECT EMPLOYEE_ID
+		FROM EMPLOYEES
+		WHERE EMPLOYEE_ID IN (SELECT MANAGER_ID
+                		FROM EMPLOYEES
+				WHERE LAST_NAME IN 'Ford'));

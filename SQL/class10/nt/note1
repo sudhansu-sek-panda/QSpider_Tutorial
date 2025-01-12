@@ -1,0 +1,16 @@
+A written an another sub query is known as nested sub query.
+
+We can nest about 255 sub-queries inside a query.
+
+SELECT * FROM EMP WHERE SAL IN (SELECT MAX(SAL) FROM EMP WHERE SAL < (SELECT MAX(SAL) FROM EMP;););
+
+<!-- 2ND MAXIMUM SALARY -->
+(SELECT MAX(SAL) FROM EMP WHERE SAL < (SELECT MAX(SAL) FROM EMP;))
+
+
+SELECT MAX(SAL)
+
+<!-- 5TH MAXIMUM SALARY -->
+
+<!-- NAME OF THE 3RD MAXIMIM SALARY -->
+

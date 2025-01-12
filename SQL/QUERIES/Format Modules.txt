@@ -1,0 +1,18 @@
+Format Modules
+   i.    YEAR : TWENTY TWENTY
+  ii.    YYYY : 2020
+ iii.    YY : 20
+  iv.    MONTH : JULY
+   v.    MON : JUL
+  vi.    MM : 07
+ vii.    DAY : WEDNESDAY
+viii.    DY : WED
+  ix.    DD : 08
+   x.    D : 4 ( day of the week )
+  xi.    HH24 : 17 hours
+ xii.    HH12 : 5 hours
+xiii.    MI : 22 minutes
+ xiv.    SS : 53 seconds
+  xv.    'HH12:MI:SS' : 5 : 22 : 53
+ xvi.    'DD-MM-YY' : 17 - 05 - 20
+xvii.    'MM-DD-YYYY' : 05 - 17 - 2020 
