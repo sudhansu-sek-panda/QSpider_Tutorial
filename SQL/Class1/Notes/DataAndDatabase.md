@@ -39,6 +39,12 @@ Read/ Retrive
 
 Universally we called this operations as **'CRUD'** operations.
 
+## Screenshots
+
+<!-- ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here) -->
+![App Screenshot](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/resources/database.png)
+
+
 [Next ](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/Notes/database.md)
 
 
