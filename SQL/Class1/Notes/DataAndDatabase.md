@@ -8,7 +8,7 @@
 
 # Data #
 ```````````````````````````````````````````````````````````````````````
-** Data is a raw fact which describes the attributes of an entity. **
+**Data is a raw fact which describes the attributes of an entity.**
 Ex: 
 Name: Sudhansu
 Age: 22
