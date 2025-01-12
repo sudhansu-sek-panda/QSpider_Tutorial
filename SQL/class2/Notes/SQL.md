@@ -38,3 +38,37 @@ Syntax:
 Order of Execution
 1. FROM
 2. SELECT
+
+Note: 
+- From Clause starts the execution.
+- in FROM clause we can pass table name as an argument.
+- The job of a FROM clause is to go to the daatabase & search for the table & put the table execution.
+- SELECT clause will execute after the execution of the FROM clause.
+- For SELECT clause we can pass 3 arguments
+1. *
+2. [Distnict] Column name
+3. Expression [ALIAS]
+- The job of a SELECT cluase is to go to the table which is under execution and select the monitored columns.
+- SELECT clause is responsible for preparing the result table.
+1. *
+- It is used to select all the column of a table.
+2. Expression
+It is a statement which gives a reason.
+- We can filter the records with the help of filter codition.
+- We can write multiple conditions or filter conditions in where clause with the help of logical operation.
+
+Example:
+Q: Write a query to display the employee name dept & salary given to each employee if they are working dept = 20;
+
+
+![App Screenshot](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/class2/Notes/SQL.md)
+
+
+Query: SELECT ENAME, DEPTNO, SAL 
+FROM EMP 
+WHERE DEPTNO = 20;
+
+
+ [Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/Notes/database.md)
+[Next]() 
+
