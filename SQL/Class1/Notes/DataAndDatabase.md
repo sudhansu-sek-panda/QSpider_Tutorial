@@ -1,7 +1,7 @@
 ## Information
-- SQL
-- Likhit Sir 
-- JSpiders                                      
+- Course: SQL
+- Trainner: Likhit Sir 
+- Place: Bhubaneswar JSpiders                                      
 
 # Data 
 
