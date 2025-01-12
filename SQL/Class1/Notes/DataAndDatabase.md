@@ -39,6 +39,6 @@ Read/ Retrive
 
 Universally we called this operations as **'CRUD'** operations.
 
-[Next ](https://github.com/matiassingers/awesome-readme)
+[Next ](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/Notes/database.md)
 
 
