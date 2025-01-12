@@ -1,8 +1,8 @@
 >                                            ====================================
->                                         ||  Date:                         ||
+>                                            ||  Date:                         ||
 >                                            ||  Course:  SQL                  ||
 >                                            ||  Name:  Likhit Sir             ||
->                                           ||  Place: QSpider Bhubaneswar    ||
+>                                            ||  Place: QSpider Bhubaneswar    ||
 >                                            ||                                ||
 >                                            ====================================
 
