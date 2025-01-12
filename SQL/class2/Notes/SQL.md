@@ -1,5 +1,5 @@
 # SQL
-SQL stnads for structure query language which is the specific purpose language and it is used to communicate with RDBMS.
+SQL stands for structure query language which is the specific purpose language and it is used to communicate with RDBMS.
 
 ## Rules of EF Codd
 1. The data stored in the database should be in a tabular format including metadata.
