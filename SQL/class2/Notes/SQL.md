@@ -61,7 +61,7 @@ Example:
 Q: Write a query to display the employee name dept & salary given to each employee if they are working dept = 20;
 
 
-![App Screenshot](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/class2/Notes/SQL.md)
+![App Screenshot](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/class2/Resources/emp_table.png)
 
 
 Query: SELECT ENAME, DEPTNO, SAL 
