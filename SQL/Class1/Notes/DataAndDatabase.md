@@ -18,7 +18,7 @@ Age: 22
 Height: 5:00  
 
 
-- Raw Fact: The data which we store into a database is going to change in some scenario
+- **Raw Fact:** The data which we store into a database is going to change in some scenario
 and not a some scenarios, so that we consider the data as a raw fact.  
                  OR  
 - The data is an unprocessed information, so that we consider data as a Raw Facts.
@@ -30,10 +30,10 @@ and not a some scenarios, so that we consider the data as a raw fact.
 They are: 
 
 
-- Create/ Insert  
+- **Create/ Insert  
 - Read/ Retrive
 - Update/ Modify
-- Delete/ Drop
+- Delete/ Drop**
 
 Universally we called this operations as 'CRUD' operations.
 
