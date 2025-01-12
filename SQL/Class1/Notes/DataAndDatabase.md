@@ -32,10 +32,10 @@ and not a some scenarios, so that we consider the data as a raw fact.
 They are: 
 
 
-- **Create/ Insert  
-- Read/ Retrive
-- Update/ Modify
-- Delete/ Drop**
+ **Create/ Insert  
+Read/ Retrive
+ Update/ Modify
+ Delete/ Drop**
 
 Universally we called this operations as 'CRUD' operations.
 
