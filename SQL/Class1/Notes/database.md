@@ -22,5 +22,5 @@ Note:
 - Any DBMS software which stores the data in **tables** or **relations** is considered as RDBMS.  
 
  [Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/Notes/DataAndDatabase.md)
-[Next](https://github.com/matiassingers/awesome-readme) 
+[Next](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/class2/Notes/SQL.md) 
 
