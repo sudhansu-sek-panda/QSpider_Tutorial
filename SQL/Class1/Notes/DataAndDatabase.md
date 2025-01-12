@@ -6,7 +6,7 @@
                                             ||                                ||
                                             ====================================
 
-# Data
+# Data #
 ```````````````````````````````````````````````````````````````````````
 ** Data is a raw fact which describes the attributes of an entity. **
 Ex: 
@@ -17,7 +17,7 @@ Height: 5:00
 and not a some scenarios, so that we consider the data as a raw fact.
             OR
 -> The data is an unprocessed information, so that we consider data as a Raw Facts.
-# Database
+## Database 
 
 -> Database is a place or a media which is used to store the data in a systematic or an organised manner.
 
