@@ -70,5 +70,5 @@ WHERE DEPTNO = 20;
 
 
  [Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/Class1/Notes/database.md)
-[Next]() 
+[Next](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/SQL/class3/Notes/operators.md) 
 
