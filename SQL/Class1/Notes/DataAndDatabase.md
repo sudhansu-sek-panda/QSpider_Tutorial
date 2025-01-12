@@ -5,9 +5,9 @@
 >                                            ||  Place: QSpider Bhubaneswar    ||
 >                                            ||                                ||
 >                                            ====================================
-
 # Data 
 ```````````````````````````````````````````````````````````````````````
+
 **Data is a raw fact which describes the attributes of an entity.**
 Ex: 
 Name: Sudhansu
@@ -30,4 +30,5 @@ They are:
 -> Delete/ Drop
 
 Universally we called this operations as 'CRUD' operations.
+
 
