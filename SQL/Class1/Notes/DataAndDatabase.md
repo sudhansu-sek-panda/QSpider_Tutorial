@@ -6,7 +6,7 @@
                                             ||                                ||
                                             ====================================
 
-#Data
+# Data
 ```````````````````````````````````````````````````````````````````````
 -> Data is a raw fact which describes the attributes of an entity.
 Ex: 
