@@ -9,7 +9,7 @@ The details or the data of a data is known as metadata.
 
 2. The data stored in a shell should be a single valued data, to avoid the data loss.
 
-3. According th EF Codd, we can store the data in multiple tables, if it is required we can establish the connection between two tables using key attributes.
+3. According the **EF Codd**, we can store the data in multiple tables, if it is required we can establish the connection between two tables using key attributes.
 
 4. We can validate the data by assigning the data types and by assigning constraints.
 
@@ -33,7 +33,7 @@ It is a data type which acts as upper case (A-Z), lower case (a-z), digits (0-9)
 size specifies that the maximum number of characters can be stored into a set.
 
 Syntax:
-SELECT [DISTNICT]column_name/ expression[ALIAS NAME] FROM table_name;
+**SELECT [DISTNICT]column_name/ expression[ALIAS NAME] FROM table_name;**
 
 Order of Execution
 1. FROM
