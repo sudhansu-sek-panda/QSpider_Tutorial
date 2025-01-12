@@ -1,11 +1,7 @@
->                                           
->                                            ||  Date:                         ||
->                                            ||  Course:  SQL                  ||
->                                            ||  Name:  Likhit Sir             ||
->                                            ||  Place: QSpider Bhubaneswar    ||
->                                            ||                                ||
->   
-                                        
+## Information
+- SQL
+- Likhit Sir 
+- JSpiders                                      
 
 # Data 
 
