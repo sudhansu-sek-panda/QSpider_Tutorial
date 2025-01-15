@@ -1,6 +1,6 @@
 ### calling of a static method
-`````````````````````````````````````
-THere are three ways to acces a static method inside any static area i.e
+
+There are three ways to acces a static method inside any static area i.e
 1. By Directly
 2. By class name (Recomended Way)
 3. By the help of Objects
@@ -9,7 +9,7 @@ THere are three ways to acces a static method inside any static area i.e
 both static method
 
 by class name:
-
+<pre>
 class Test{
     public static void m1(){ // static method
         System.out.println("static method");
@@ -29,11 +29,11 @@ class Test{
 
 
 }
-
+</pre>
 
 ### Method Chanining
-``````````````````````````````
 
+<pre>
 class Test
 {
     public static void m1(){
@@ -51,7 +51,7 @@ class Test
     }
 }
 
-
+</pre>
 Can we access any static method inside any non-static area directly?
 Yes! We can access!
 
