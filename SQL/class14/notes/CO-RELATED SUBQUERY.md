@@ -48,4 +48,52 @@ Exists operator returns true if the sub-query returns any value other than the n
 # NO EXISTS
 it is similar to exist operator which returns true if the sub-query returns null. 
 
+\ - to remove the special character behaviour.
+
+ _ % - 
+
+
+ ESCAPE CHARACTER
+ ````````````````````````````````
+ Escape Character is used to remove the special behaviour of the special characters and treat them as not null characters.
+
+ ESCAPE character must be defined. 
+ 2 - Escape character must be used just before the special character which has to be treated as normal character. 
+
+
+
+ WAQTD the details of the employess whose name contains _INIT
+ SELECT * 
+ FROM EMPLOYEES
+ WHERE ENAME LIKE '%!_%' ESCAPE '!';
+
+
+
+ESCAPE CHARACTER
+```````````````````````````
+WAQTD the salary employee name and salary of all the employees.
+
+
+select ename, sal from emp
+order by 
+
+ORDER BY
+````````````````
+It is used to arrange the data or records either in ascending or descnding order.
+By default order by clause solves the records in ascending order.
+
+- Order By clause executes at the last.
+Order By clause executes after the select clause and it executes row by row.
+
+Syntax and Order of execution
+``````````````````````````````````````````
+
+
+
+
+
+
+
+
+
 
