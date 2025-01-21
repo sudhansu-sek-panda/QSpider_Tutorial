@@ -29,7 +29,7 @@ public static void main(String a[]){
     A a1 = new A();
     B b1 = new B();
     C c1 = new C();
-    a1.m1(); // abc
+    a1.m1(); // abc // own method
     a1.m2(); // CE Can't find symbol m2()
     a1.m3(); // CE Can't find symbol m3()
     b1.m1(); // abc // inheriting A class
