@@ -18,7 +18,7 @@ Object class found in:
 To find Object class in 
 Eclipse : **ctrl + shift + t**
 
-methods of object class: **hashCode, finally, toString**
+methods of object class: **hashCode(), finally(), toString()**
 
 Diamond Problem
 
