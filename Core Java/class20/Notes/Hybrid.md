@@ -21,5 +21,6 @@ Eclipse : **ctrl + shift + t**
 methods of object class: **hashCode(), finally(), toString()**
 
 Diamond Problem
+![](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Resources/DiamondProblem.png)
 
 [Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Notes/Hyrarchical.md) | [Next]()
