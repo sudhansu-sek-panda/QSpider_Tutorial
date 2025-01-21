@@ -1,5 +1,5 @@
 # Hybrid Inheritance
-- It is the combination of single inheritance, multilevel inheritance, multiple inheritance and Hirarchical Inheritance.
+- It is the combination of single inheritance, multilevel inheritance, multiple inheritance and hierarchical Inheritance.
 - It is not supported in java by the help of classes because it contains multiple inheritance.
 
 ![Screenshort](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Resources/Hybrid.png)

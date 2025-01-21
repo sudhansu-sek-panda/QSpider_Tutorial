@@ -1,6 +1,6 @@
-# Hirerchical Inheritance
+# Hierarchical Inheritance
 
-If more than one class aquires the property of single class then it is known as Hirerchical Inheritance.
+If more than one class aquires the property of single class then it is known as hierarchical Inheritance.
 
 ![](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Resources/Hyrarchical.png)
 <pre>
