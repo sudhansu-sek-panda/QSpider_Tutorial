@@ -45,4 +45,4 @@ public static void main(String a[]){
 ![](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Resources/Hyrarchical2.png)
 ![](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Resources/Hyrarchi3.png)
 
-[Previous] | [Next]
+[Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class19/notes/Inheritance.md) | [Next](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class20/Notes/Hybrid.md)
