@@ -82,3 +82,5 @@ class Test{
     }
 }
 </pre>
+
+[Previous]() | [Next](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class19/notes/MultipleInheritance.md)
