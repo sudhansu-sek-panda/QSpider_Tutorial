@@ -1,10 +1,12 @@
 # Returntype
 
+
+
 The return statement must be the last statement inside any method otherwise we'll get compile time error saying unreachable statement.
 <pre>
 class Test{
     public int m1(){
-        System.out.println("abc)
+        System.out.println("abc");
     }
     public static void main(String a[]){
         Test t1 = new Test();
@@ -15,7 +17,7 @@ class Test{
 
 There are two ways to print the return statement of any method.
 1. By directly
-2. By storing it within a variable.
+2. By storing it within a variable
 
 ### By Directly
 ***Non-Static method***
@@ -38,7 +40,7 @@ class Test{
 <pre>
 class Test{
     public static int m1(){
-        System.out.println("abc);
+        System.out.println("abc");
         return 10;
     }
     public static void main(String a[]){

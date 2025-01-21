@@ -1,6 +1,8 @@
-# Argument 
+# Argument
+
 Argument means input to the method
 Argument are of two types.
+
 1. Primitive Type (int, byte, char, ...)
 2. Non-Primitive Type (class name)
 
@@ -10,20 +12,21 @@ m1(int x) ✅
 m1(String f) ✅  
 m1(char c) ✅
 
-int 
+int
 
 Calling of a non static method with primitive type as an argument.
-**<pre>
+\*\*<pre>
 class Test {
-    public void m1(int x){
-        System.out.println(" M1 Method");
-    }
-    public static void main(String a[]){
-        Test t1 = new Test();
-        t1.m1();
-    }
+public void m1(int x){
+System.out.println(" M1 Method");
 }
-</pre>**
+public static void main(String a[]){
+Test t1 = new Test();
+t1.m1();
+}
+}
+
+</pre>
 
 <pre>
 ❌
@@ -73,8 +76,8 @@ class Test {
 ✅
 </pre>
 
-
 ## Calling of a non-static method with non-primitive type as an argument
+
 <pre>
 class Test {
     public void m1(String s){
@@ -88,10 +91,11 @@ class Test {
     }
 }
 </pre>
+
 **Note: Every non-primitive data type has default value null**
+
 <center>
-<table>
-<tr>
+<table><tr>
 <th>
 String
 </th>
@@ -114,6 +118,7 @@ Demo
 </td>
 </tr>
 <tr>
+
 
 <td>new String()
 </td>
@@ -161,5 +166,3 @@ M1 Method
 M1 Method
 M1 Method
 </pre>
-
-

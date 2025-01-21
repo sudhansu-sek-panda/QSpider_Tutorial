@@ -42,3 +42,7 @@ Interpreter
 -> It translates the byte code.
 -> It translates the byte code into machine code and execute the java programme.
 
+
+
+Main method calls other method then who calls the main method? 
+- JVM calls the main method. 
