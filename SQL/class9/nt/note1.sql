@@ -45,6 +45,8 @@ Outer Queries -> DEpendent -- Inner Queries
 -- Whenever the data to be selected and the condition to be satisfied are present in different tables, then we use sub-Query.
 
 --> 1 - WAQTD name of the employees earning more than adams.
+
+
 SELECT ENAME
 FROM EMP 
 WHERE SAL > (SELECT SAL 
