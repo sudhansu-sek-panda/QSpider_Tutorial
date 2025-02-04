@@ -60,10 +60,10 @@ interface B extends A{
 
 }
 </pre>
-**case1:** class - class -> extends 
-**case2:** class - interface -> Not Possible 
-**case3:** interface - class -> impliments
-**case4:** interface - interface -> extends 
+**case1:** class - class -> extends   
+**case2:** class - interface -> Not Possible   
+**case3:** interface - class -> impliments  
+**case4:** interface - interface -> extends   
 
 
 **Interface could achieve multiple inheritance:**
