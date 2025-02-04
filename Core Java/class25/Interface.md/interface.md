@@ -87,11 +87,11 @@ interface A{
 }
 </pre>
 
-The variable which is declare inside an interface is by default treated as **public**, **static** and **final**.
+The variable which is declare inside an interface is by default treated as **public**, **static** and **final**.  
 
-Non-static variables are not possible in interface.
-How to
-**write a programm to proof the interface variables are by default static.**
+Non-static variables are not possible in interface.  
+How to  
+**write a programm to proof the interface variables are by default static.**  
 interface - fullly abstract class
 <pre>
 interface A{
@@ -126,7 +126,7 @@ public static void main(String a[]){
     }
 }
 </pre>
-### Write a programme to proof the interface variable is by default final
+### Write a programme to proof the interface variable is by default final  
 <pre>
 interface A{
     int x = 10;
