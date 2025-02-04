@@ -157,4 +157,4 @@ public static void main(String a[]){
 }
 }
 </pre>
-[⬅️]()| [➡️](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class25/Interface.md/Test.md)
+[⬅️ Previous]()| [Next ➡️](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class25/Interface.md/Test.md)
