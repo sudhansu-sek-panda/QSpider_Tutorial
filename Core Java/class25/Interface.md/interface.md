@@ -24,7 +24,7 @@ interface Test{
 
 **The interface came into picture to enjoy the fuctionalities of multiple inheritance.**
 
-### class 1:
+### case 1:
 
 class A{
 
