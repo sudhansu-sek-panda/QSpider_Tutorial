@@ -61,4 +61,4 @@ public static void main(String a[]){
 }
 
 </pre>
-[⬅️ Previous]()   |  [Next ➡️]()
+[⬅️ Previous](https://github.com/sudhansu-sek-panda/QSpider_Tutorial/blob/main/Core%20Java/class25/Interface.md/interface.md)   |  [Next ➡️]()
