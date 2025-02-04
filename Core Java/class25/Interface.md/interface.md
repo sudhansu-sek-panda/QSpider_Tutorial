@@ -40,7 +40,7 @@ class A {
 }
 interface B impliments/ extends A{
 
-} // ❌ Not possible
+} ❌ Not possible
 
 ### case 3:
 interface A{
@@ -65,7 +65,7 @@ interface B extends A{
 
 
 **Interface could achieve multiple inheritance:**
-
+<pre>
 interface A
 {
 
@@ -76,14 +76,14 @@ interface B{
 class C impliments A,B {
 
 }
-
+</pre>
 
 ### Interface Variable:
-
+<pre>
 interface A{
     int x =10;
 }
-
+</pre>
 
 The variable which is declare inside an interface is by default treated as **public**, **static** and **final**.
 
@@ -91,7 +91,7 @@ Non-static variables are not possible in interface.
 How to
 **write a programm to proof the interface variables are by default static.**
 interface - fullly abstract class
-
+<pre>
 interface A{
     int x = 10;
     public static void main(String a[]){
@@ -99,8 +99,9 @@ interface A{
         a1.x(); // WE could not create object of interface
     }
 }
-
+</pre>
 ### Main method in the interface
+<pre>
 interface A{
     int x = 10;
     public static void main(String a[]){
@@ -108,8 +109,9 @@ interface A{
         System.out.println(A.x);
     }
 }
-
+</pre>
 ### Through another class
+<pre>
 interface A{
         int x = 10;
 
@@ -121,8 +123,9 @@ public static void main(String a[]){
         System.out.println(Test.x); // class
     }
 }
-
+</pre>
 ### Write a programme to proof the interface variable is by default final
+<pre>
 interface A{
     int x = 10;
 
@@ -136,9 +139,9 @@ public static void main(String a[]){
     System.out.println(Test.x);
 }
 }
-
+</pre>
 if there are two variables with same name (a static and a local variable name) then priority always goes to local variable.
-
+<pre>
 interface A{
     int x = 10;
 
@@ -151,3 +154,4 @@ public static void main(String a[]){
     System.out.println(Test.x); // static variable of Test class
 }
 }
+</pre>
