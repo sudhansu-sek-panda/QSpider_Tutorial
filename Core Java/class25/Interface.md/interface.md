@@ -25,39 +25,41 @@ interface Test{
 **The interface came into picture to enjoy the fuctionalities of multiple inheritance.**
 
 ### case 1:
-
+<pre>
 class A{
 
 }
 class B extends A{
 
 } 
-
+</pre>
 ### case 2:
-
+<pre>
 class A {
 
 }
 interface B impliments/ extends A{
 
 } ❌ Not possible
-
+</pre>
 ### case 3:
+<pre>
 interface A{
 
 }
 class B impliments A{
 
 }
-
+</pre>
 ### case 4:
+<pre>
 interface A{
 
 }
 interface B extends A{
 
 }
-
+</pre>
 **case1:** class - class -> extends 
 **case2:** class - interface -> Not Possible 
 **case3:** interface - class -> impliments
