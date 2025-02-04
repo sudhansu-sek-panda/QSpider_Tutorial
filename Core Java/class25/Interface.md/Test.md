@@ -1,7 +1,9 @@
+<pre>
+
 interface A{
     int x = 10;
 
-}
+}  
 class Test implements A {
     int x = 20;
 public static void main(String a[]){
@@ -12,8 +14,9 @@ public static void main(String a[]){
 }
 }
 
-
+</pre>
 ### No inheritance
+<pre>
 interface A{
     int x = 10;
 
@@ -26,8 +29,9 @@ public static void main(String a[]){
     System.out.println(test.x); // CE
 }
 }
-
+</pre>
 ### Inheritance
+<pre>
 interface A{
     int x = 10;
 
@@ -39,7 +43,9 @@ public static void main(String a[]){
     System.out.println(test.x); // CE
 }
 }
+    </pre>
 ### Both
+<pre>
 interface A{
     int x = 10;
 
@@ -54,4 +60,4 @@ public static void main(String a[]){
 }
 }
 
-
+</pre>
