@@ -7,22 +7,6 @@ Note:
 👉 1. Only coresponding primitive type allowed  
 👉 2. Only coresponding primitive type String allowed
 
-### Integer Wrapper class
-Integer I = new Integer(10);✅  
-Integer I = new Integer('20');✅  
-Integer I = new Integer(2.5); ❌  
-Integer I = new Integer(); ❌  
-Integer I = new Integer('a');✅  
-Integer I = new Integer("text");❌
-
-Byte Short Long - 2 type argument
-
-
-**Not allowed**
-1. Other Primitive types
-2. Other String types
-3. No argument Constructor
-
 
 ### Float Wrapper Class
 
