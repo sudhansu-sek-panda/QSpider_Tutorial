@@ -1,8 +1,16 @@
+<html>
+<head>
 <style>
-.child{
-    position: fixed;
+.hyy{
+    style="position: fixed;
     bottom: 0;
-    right:0;
+    right:0;"
 }
-    </style>
- <p class="hyy">😃</p>
+</style>
+</head>
+<body>
+<p class="hyy" >😃</p>
+</body>
+</html> 
+
+    <!-- 1.2 version COllection -->
