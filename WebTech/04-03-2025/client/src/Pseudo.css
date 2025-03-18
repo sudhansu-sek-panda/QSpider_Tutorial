@@ -1,0 +1,62 @@
+.abc{
+height: 200px;
+width: 200px;
+/* background-color: red; */
+transition: all 2s;
+}
+.abc:hover{
+    background-color: blue;
+    
+}
+
+/* li{
+    color: blue;
+} */
+/* Pseudo class selector */
+/*  */
+li:first-child{
+color: blue;
+}
+li:last-child{
+color: purple;
+}
+li:nth-child(odd){
+color: blue;
+}
+li:nth-child(even){
+color: red;
+}
+
+a{
+    color: gold;
+}
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: purple;
+}
+a::after{
+    content: "👍";
+}
+a::before{
+    content: "👍";
+}
+
+/* Pseudo */
+
+::marker{
+content: "😨";
+    color: aqua;
+    font-size: 20px;
+}
+p::selection{
+    color: yellow;
+    /* taking the  */
+}
+
+*{
+    user-select: none;
+}
+

@@ -9,5 +9,6 @@ public class Test1 {
         Test1 t1 = new Test1();
         t1.m1(10);
         t1.m1((int)10);
+        t1.m1((byte)10);
     }
 }

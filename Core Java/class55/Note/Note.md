@@ -18,7 +18,7 @@ We can get object by using **iteraor();**
 
 Methods of Iterator:
 <pre>
-1.public boolean hasNext();
+1. public boolean hasNext();
 2. public Object next();
 3. pulic void remove();
 </pre>

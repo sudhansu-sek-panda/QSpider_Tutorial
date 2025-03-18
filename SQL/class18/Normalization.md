@@ -19,9 +19,10 @@ Any Table which doesn't have redundancies and anomalies is said to be in Normal 
 ### 1st Normal Form
 - Table shouldn't have duplicate records in it.
 - The table shouldn't have multivalued data.
+
 ### 2nd Normal Form
-- The table should be in 1st Normal FOrM
-- Table shouldnot have partial functional dependency
+- The table should be in 1st Normal Form
+- Table should not have partial functional dependency
 
 ### 3rd Normal Form
 - Table should be in 2nd Normal Form
