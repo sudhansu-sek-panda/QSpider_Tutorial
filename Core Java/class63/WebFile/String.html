@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>String</h3>
+    <p>It is a predefined class present in Java.lang package and considered to be most important class after object class.</p>
+    <p><b>Importance of String class</b></p>
+    <ul><li>It is the mandatory class used in main method argument.</li></ul>
+    <p><b>Properties of String class</b></p>
+    <ul><li><p>String class objects are immutable</p>
+        <pre>
+
+            public class Demo {
+                public static void main(String[] args) {
+                  String s = new String("Ganji");
+                  System.out.println(s);
+                  s.concat("Chudel");
+                  System.out.println(s); 
+                }  
+              
+              }
+        </pre>
+        <b>Output:
+        </b>
+        <pre>
+            Ganji
+            Ganji
+        </pre>
+        
+    If we're creating object of string class by passing a content then we can't perform any kind of changes or updation with the content of the object. </li> <br>
+    Twice Ganji came because of immutable nature of the String. <br> <br>
+    <p>Note: <p> The Object 'GanjiChudel' is still present interanlly.</p></p> 
+    <li>In string class <b>toString()</b> method has already been overriden to return the content of the object nor the address of the object</li></ul>
+   
+</body>
+</html>

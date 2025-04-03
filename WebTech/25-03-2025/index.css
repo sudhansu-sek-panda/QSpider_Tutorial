@@ -1,0 +1,7 @@
+h1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    /* text-align: start end left right center justify;  6 values*/
+}

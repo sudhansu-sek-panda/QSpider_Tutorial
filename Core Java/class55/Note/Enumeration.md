@@ -14,7 +14,7 @@ It is used to convert a single Object into elements to perform operations.
 elements()
 hasMoreElements()
 nextElement()
-</pre>
+</pre> 
 **Printing the even values from a collection through Enumeration.**
 <pre>
 import java.util.Enumeration;
@@ -36,7 +36,7 @@ class Enum{
     }
 }  
 </pre>
-Compilation: **javac Enum.java**
+Compilation: **javac Enum.java** 
 <pre>
 Note: Enum.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -94,3 +94,15 @@ false
 2 -  By using Enumeration we can only read the objects.
 3 - We can't form remove operation.<br>
 4 - In order overcome java developers have introduces iterator concept in 1.2 version.<br>
+
+
+**Q.What is the difference between the enum and Enumration?**
+Enumuration in Java, represented by the keyword enum, is a special data type used to define a collection of named constants. 
+It provides a way to create a type-safe list of values, ensuring that a variable can only hold one of the specified constants. Enums are useful for representing a fixed set of options, such as days of the week, months of the year, or states of an object.
+
+Declaration snd Usage
+An enum is declared using the enum keyword, followed by the name of the enum and a list of constants separated by commas.
+
+enum Day{
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}

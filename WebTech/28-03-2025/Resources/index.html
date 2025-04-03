@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Checking css --> 
+     <img id="check" src="./krishna-png.png" alt="">
+    <p>Note:</p> <p>The <b>ctrl + tab</b> is used for navigate between the files in the VS code.</p>
+   <center> <b><p>Methods: </p></b></center>
+    <ol>
+        <li>split();</li>
+        <p> The split() converts the string to array. It has two parameters.</p>
+      <ol>
+        <li> <p>Empty Parameter</p> </li>
+        <p>It converts the entire string to a single element of array stored at index 0.</p>
+        <pre>
+        const str = "hello"
+        console.log(str.split())
+        </pre>
+        <img src="./EmptyParameter.png" alt="">
+      <li><p>Null String as parameter</p></li>
+      <p>It converts the letters of a string to element of array with begin index 0 and ending index with string leangth-1. </p>
+         <pre>
+        const str = "hello"
+        console.log(str.split(""))
+        </pre>
+        <img src="./NullStringParameter.png" alt="">
+        <li>        <p>Special Symbols within the String</p></li>
+            <p>It splits the string to number of elements of array where it found <b>@</b>.</p>
+
+        
+        <pre>
+        const str2 = "hello@sudhansu@panda"
+        console.log(str2.split("@"))
+        </pre>
+        <img src="./SymbolAsString.png" alt="">
+      </ol>
+        <li>push()</li>
+        <p>The push() is used to add new elements into the ending index of an array.  </p>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str)
+          str.push(8,9,10,11)
+          console.log(str)
+        </pre>
+        <img src="./push().png" alt="">
+        <li>unshift();</li>
+        <p>The unshift() is used to add new elements into the starting index of an array. </p>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str)
+          str.unshift(-2,-1,1,0)
+          console.log(str)
+        </pre>
+        <img src="./unShift().png" alt="">
+        <li>pop();</li>
+        <p> The pop() is used to remove a single element from the ending index of an array.</p>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str)
+          str.pop()
+          console.log(str)          
+        </pre>
+        <img src="./pop().png" alt="">
+        <li>shift();</li>
+        <p> The shift() is used to remove a single element from the starting index of an array.</p>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str)
+          console.log(str.shift())
+          console.log(str)
+        </pre>
+        <img src="./shift().png" alt="">
+        <li>slice()</li>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str)
+          console.log(str.slice(2,5))
+          console.log(str)
+        </pre>
+        <img src="./slice.png" alt="">
+        <li>join()</li>
+        <pre>
+          const str = [1,2,3,4,5,6,7]
+          console.log(str +" --> This is an array "+ typeof str)
+          const jn = str.join("")
+          console.log(jn+ " --> This is a " + typeof jn )
+
+        </pre>
+        <p>Output</p>
+        <pre>
+          1,2,3,4,5,6,7 --> This is an array object
+          1234567 --> This is a string</pre>
+        <img src="./join().png" alt="">
+    </ol>
+    <script src="./index.js"></script>
+</body>
+</html>
